@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
-import { PostListComponent } from './post-list/post-list.component';
+import { PostListComponent } from './components/post-list/post-list.component';
 
 const routes: Routes = [
   { path: '', component: AppComponent },
 
   {
     path: 'posts',
-    component: PostListComponent,
+    component: AppComponent
   },
 ];
 
